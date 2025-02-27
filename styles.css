@@ -1,0 +1,48 @@
+body { /* Targets the entire body of the page */
+    font-family: Arial, sans-serif; /* Sets font to Arial or a sans-serif fallback */
+    display: flex; /* Uses flexbox for layout */
+    flex-direction: column; /* Arranges children vertically */
+    align-items: center; /* Centers children horizontally */
+    justify-content: center; /* Centers children vertically in the viewport */
+    height: 100vh; /* Ensures body takes up full viewport height */
+    margin: 0; /* Removes default margin */
+    background-color: #e1bee7; /* Sets a light purple background color */
+  }
+  
+  .converter-container { /* Targets the main container div */
+    text-align: center; /* Centers text inside the container */
+    background: #fff; /* Sets a white background */
+    padding: 20px; /* Adds internal spacing */
+    border-radius: 10px; /* Rounds the corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+    width: 400px; /* Sets a fixed width for the container */
+  }
+  
+  input, select { /* Targets input and select elements */
+    padding: 10px; /* Adds padding inside the elements */
+    font-size: 16px; /* Sets font size for readability */
+    margin: 10px 5px; /* Adds spacing around the elements */
+    width: 120px; /* Sets a consistent width */
+    border: 1px solid #ccc; /* Adds a light gray border */
+    border-radius: 5px; /* Rounds the corners */
+  }
+  
+  button { /* Targets the convert button */
+    padding: 10px 20px; /* Adds padding for size */
+    font-size: 16px; /* Sets font size */
+    margin: 10px 0; /* Adds vertical spacing */
+    border: none; /* Removes default border */
+    border-radius: 5px; /* Rounds the corners */
+    cursor: pointer; /* Changes cursor to pointer on hover */
+    background-color: #4caf50; /* Sets a green background */
+    color: white; /* Sets text color to white */
+  }
+  
+  button:hover { /* Styles the button on hover */
+    background-color: #45a049; /* Darkens the green slightly */
+  }
+  
+  #result { /* Targets the result div */
+    font-size: 18px; /* Sets font size for visibility */
+    margin-top: 20px; /* Adds space above the result */
+  }

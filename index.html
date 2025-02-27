@@ -1,0 +1,27 @@
+<!DOCTYPE html> <!-- Declares the document type as HTML5 -->
+<html lang="en"> <!-- Sets the document root with English as the language -->
+<head> <!-- Contains metadata about the document -->
+  <meta charset="UTF-8"> <!-- Specifies UTF-8 character encoding for special characters -->
+  <title>Currency Converter</title> <!-- Sets the browser tab title to "Currency Converter" -->
+  <link rel="stylesheet" href="styles.css"> <!-- Links the external CSS file for styling -->
+</head> <!-- Closes the head section -->
+<body> <!-- Begins the visible content of the page -->
+  <div class="converter-container"> <!-- Main container for the converter app -->
+    <h1>Currency Converter</h1> <!-- Heading for the app -->
+    <input type="number" id="amount" placeholder="Enter amount" step="0.01"> <!-- Input for the amount -->
+    <select id="fromCurrency"> <!-- Dropdown for the "from" currency -->
+      <option value="USD">USD</option> <!-- Default option: US Dollar -->
+      <option value="EUR">EUR</option> <!-- Option: Euro -->
+      <option value="GBP">GBP</option> <!-- Option: British Pound -->
+    </select> <!-- Closes the "from" dropdown -->
+    <select id="toCurrency"> <!-- Dropdown for the "to" currency -->
+      <option value="EUR">EUR</option> <!-- Default option: Euro -->
+      <option value="USD">USD</option> <!-- Option: US Dollar -->
+      <option value="GBP">GBP</option> <!-- Option: British Pound -->
+    </select> <!-- Closes the "to" dropdown -->
+    <button id="convert" onclick="convertCurrency()">Convert</button> <!-- Button to trigger conversion -->
+    <div id="result"></div> <!-- Div to display the conversion result -->
+  </div> <!-- Closes the main container -->
+  <script src="script.js"></script> <!-- Links the external JavaScript file for functionality -->
+</body> <!-- Closes the body section -->
+</html> <!-- Closes the HTML document -->
